@@ -11233,7 +11233,7 @@ def ticketplus_keyin_captcha_code(driver, answer = "", auto_submit = False):
 
     if not form_verifyCode is None:
         if len(answer) > 0:
-            answer=answer.upper()
+           # answer=answer.upper()
 
             is_visible = False
             try:
